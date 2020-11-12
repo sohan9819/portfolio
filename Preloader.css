@@ -1,0 +1,16 @@
+.main-container {
+    transform-origin: left;
+    animation: transitionIn 0.3s ease-in;
+}
+
+@keyframes transitionIn {
+    0%{
+        opacity: 0;
+        transform: perspective(1300px) rotateY(20deg) translateZ(310px) scale(0.5);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
