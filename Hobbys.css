@@ -535,19 +535,21 @@ background-color: transparent;
   }
 
   .snote {
-    max-width:80%;
-    max-height: 80%;
+    /* max-width:120%;
+    max-height: 1700rem; */
+    width : 400px;
+    height: 1050px;
     background-color: transparent;
-    padding-top: 70em;
-    padding-bottom: 1em;
-    }
+    padding-top: 200px;
+  }
 
-    .inner {
+    /* .inner {
       max-width: 35rem;
+      max-height:1000%;
       text-align: center;
       color: #fff;
       padding: 0 2rem;
-    }
+    } */
     
     .title {
       font-size: 2.7rem;
@@ -555,5 +557,19 @@ background-color: transparent;
       left: 10%;
       top: 2%;
     }
+
+    .snote ul {
+      height: 5016px;
+      margin-top: 900px;
+    }
+
+    .inner {
+      height: 2500px;
+    }
+
+    /* .snote ul li a {
+      width: 132px;
+      height: 182px;
+    } */
 
 }
